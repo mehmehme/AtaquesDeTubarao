@@ -1,5 +1,5 @@
 <h1 align="center">
-  🐻 Análise de Dados sobre Ataques de Tubarões 🐾  
+    Análise de Dados sobre Ataques de Tubarões   
   <br>
   <img src="https://media.tenor.com/JQFOQPsvJG4AAAAM/shark-cute.gif" alt="Cute Bears" width="250">
 </h1>
