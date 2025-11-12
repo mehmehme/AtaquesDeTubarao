@@ -1,0 +1,69 @@
+  Hipótese A: o ano com mais ataques fatais é 1986, fatal_count = 64, total= 171, fatal_rate = 0.37469
+  proporção ano vs resto: z= 5.334, p =0.0000 (rejeita H0, existe diferença significativa)
+
+  Hipótese B: País/Área com maior concentração é USA (2522 ataques)
+  seguido de australia(1466), south africa(597),new zealand(143)
+  papua new guinea (136), bahamas (132), brazil (122), mexico (101), italy (72) e fiji (70)
+
+  Hipótese C: Provoked=5697, Unprovoked=1176, Questionable=17
+  Chi² test: chi2=0, p=1 (H0: proporções iguais)
+    
+  Hipótese D: Área com mais ataques NÃO provocados: desconhecido (145)
+  Hipótese E: Área com mais ataques PROVOCADOS: florida (1079)
+
+  10 areas com mais ataques NÃO provocados: desconhecido(145)
+  new south wales(94), florida(92), california (76), queensland(56),
+  kwazulu-natal (53), western cape province (50), hawaii (48), western australia (42),
+  south australia (32)
+
+  10 areas com mais ataques PROVOCADOS: florida(1079), new south wales(424),
+  unknow(334), queensland(288), hawaii(286), california(244), western australia(184),
+ kwazulu-natal(165),eastern cape province(148), western cape province (147)
+
+  Hipótese F: Atividade com mais ataques: surfing (1112)
+  surf 1112 total, 0.053 fatal_rate, 0.95 prov_rate
+  swim 1009 total,0.33 fatal_rate, 0.9 prov_rate
+  unknow 589 total, faltal 0.18 fatal_rate, 0.67 prov_rate
+  fishing 498 total, 0.1 fatal_rate, 0.7 prov_rate
+  spearfishing 387 total, 0.12 fatal_rate,0.9 prov_rate
+  wading 171 total, 0.08 fatal_rate, 0.93 prov_rate
+  bathing 166 total, 0.42 fatal_rate, 0.92 prov_rate 
+  diving 145 total, 0.15 fatal_rate, 0.88 prov_rate
+  snorkeling 127 total, 0.14 fatal_rate, 0.96 prov_rate
+  standing 115 total, 0.13 fatal_rate, 0.99 prov_rate
+
+  a atividade mais segura é surf skiing com fatal_rate de 0
+
+Dependente (alvo): Fatal (Y/N)
+
+Independentes: Age, Sex, Type, Year, Country, Activity, Area
+
+Justificativa: queremos prever se um ataque é fatal a partir das características do evento e da vítima.
+
+     count         mean        std  min      25%     50%     75%     max    moda  valores_distintos
+Year  6890.0  1971.224528  55.724864  1.0  1950.00  1986.0  2009.0  2023.0  1986.0                255
+Age   6890.0    26.165312  10.894343  1.0    22.25    24.0    26.0    87.0    24.0                 81
+
+UserWarning: scipy.stats.shapiro: For N > 5000, computed p-value may not be accurate. Current N is 6890.
+res = hypotest_fun_out(*samples, **kwds)
+Year: p-valor=0.0000 -> Não normal
+Age: p-valor=0.0000 -> Não normal
+
+Qtd. de outliers detectados: 342
+
+Valores faltosos por coluna:
+Location    565
+Name        220
+
+Associação de valores nulos em Location com Fatal(Y/N):
+Fatal (Y/N)
+0.0    369
+1.0    196
+
+
+Associação de valores nulos em Name com Fatal(Y/N):
+Fatal (Y/N)
+0.0    142
+1.0     78
+
+Há mais locais e nomes faltando em ataques não letais 
