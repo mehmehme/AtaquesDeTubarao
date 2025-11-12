@@ -1,0 +1,11 @@
+Variável,Tipo,Métrica,Valor
+Year,Numérica,R² médio,0.006
+Age,Numérica,R² médio,0.027
+Sex,Categórica,Acurácia média,Sem valores faltosos ou insuficientes
+Fatal (Y/N),Categórica,Acurácia média,Sem valores faltosos ou insuficientes
+Type,Categórica,Acurácia média,Sem valores faltosos ou insuficientes
+Name,Textual,Acurácia média,Sem valores faltosos ou insuficientes
+Country,Textual,Acurácia média,Sem valores faltosos ou insuficientes
+Area,Textual,Acurácia média,Sem valores faltosos ou insuficientes
+Injury,Textual,Acurácia média,Sem valores faltosos ou insuficientes
+Species,Textual,Acurácia média,Sem valores faltosos ou insuficientes
