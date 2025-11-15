@@ -1,0 +1,73 @@
+Hipótese A -> Ano com mais ataques fatais: 1959.0
+fatal_count    24.000000
+total          93.000000
+fatal_rate      0.258065
+Name: 1959.0, dtype: float64
+Teste proporção (ano vs resto): z=1.336, p=0.1817
+
+Hipótese B -> País/Área com maior concentração: usa (2498 ataques)
+
+Top 10 países/áreas com mais ataques:
+         country  counts
+             usa    2498
+       australia    1444
+    south africa     589
+     new zealand     142
+papua new guinea     132
+         bahamas     129
+          brazil     122
+          mexico      99
+           italy      68
+            fiji      67
+
+Hipótese C -> Provoked=5539, Unprovoked=1156, Questionable=17
+Chi² test: chi2=0.000, p=1.0000 (H0: proporções iguais)
+
+Hipótese D -> Área com mais ataques NÃO provocados: unknown (138)
+Hipótese E -> Área com mais ataques PROVOCADOS: florida (1070)
+
+Top 10 áreas com mais ataques NÃO provocados:
+Type                   1.0
+Area
+unknown                138
+new south wales         93
+florida                 92
+california              76
+queensland              55
+kwazulu-natal           53
+western cape province   50
+hawaii                  47
+western australia       42
+south australia         32
+
+Top 10 áreas com mais ataques PROVOCADOS:
+Type                    0.0
+Area
+florida                1070
+new south wales         420
+unknown                 293
+queensland              283
+hawaii                  283
+california              241
+western australia       181
+kwazulu-natal           160
+eastern cape province   147
+western cape province   145
+
+Hipótese F -> Atividade com mais ataques: surfing (1110)
+
+Atividades com >= 20 casos (resumo):
+              total_attacks  fatal_rate  prov_rate
+Activity
+surfing                1110    0.052252   0.957658
+swimming                981    0.327217   0.898063
+unknown                 553    0.166365   0.665461
+fishing                 487    0.090349   0.698152
+spearfishing            381    0.128609   0.921260
+wading                  167    0.077844   0.934132
+bathing                 160    0.425000   0.925000
+diving                  133    0.135338   0.887218
+snorkeling              126    0.150794   0.968254
+standing                113    0.132743   0.991150
+
+Atividade mais segura: surf skiing (fatal_rate=0.000)
