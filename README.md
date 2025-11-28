@@ -100,7 +100,6 @@ Foi realizada uma **apresentação** com os seguintes destaques:
 
 ## 👥 **Equipe**
 - **Elisa Nascimento dos Santos**
-- **Heitor Felipe Otaciano dos Santos**
 
 ---
 
